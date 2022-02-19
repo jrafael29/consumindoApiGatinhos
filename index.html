@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumindo API - Gatinhos</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            width: 100vw;
+            height: 100vh;
+            background-color: darkgray;
+        }
+        #image{
+            max-width: 400px;
+            width: 100%;
+            max-height: 400px;
+            border-radius: 15px;
+        }
+        .container{
+            height: 100%;
+            margin: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+        .button-area button{
+            width: 120px;
+            height: 45px;
+            background-color: cornflowerblue;
+            color: #eee;
+            border: none;
+            outline: 0;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .button-area button:hover{
+            opacity: .6;
+        }
+        .image-area{
+            /* height: 400px;
+            width: 400px; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="image-area">
+            <img id="image" src="" >
+        </div>
+        <div class="button-area">
+            <button id="button">Buscar</button>
+        </div>
+
+    </div>  
+
+<script src="./script.js"></script>
+</body>
+</html>
